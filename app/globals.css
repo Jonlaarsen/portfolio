@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #070707;
+  --foreground: #ffffff;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-family-sans: var(--font-fira), sans-serif;
+  --font-fugaz: var(--font-fugaz-one), "Fugaz One", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-fira);
+}
+
+.grid-bg {
+  background-image: 
+    linear-gradient(to right, rgba(7, 7, 7, 1) 0%, transparent 15%, transparent 85%, rgba(7, 7, 7, 1) 100%),
+    linear-gradient(to bottom, rgba(7, 7, 7, 1) 0%, transparent 15%, transparent 85%, rgba(7, 7, 7, 1) 100%),
+    linear-gradient(to right, rgba(248, 248, 248, 0.200) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(252, 252, 252, 0.200) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 50px 50px, 50px 50px;
 }
