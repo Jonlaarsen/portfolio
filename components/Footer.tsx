@@ -9,19 +9,19 @@ const Footer = () => {
     {
       name: "GitHub",
       icon: Github,
-      href: "https://github.com",
+      href: "https://github.com/Jonlaarsen",
       color: "hover:text-white",
     },
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/jon-larsen-48b928187/",
       color: "hover:text-blue-400",
     },
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:contact@example.com",
+      href: "mailto:jontoftdallarsen@icloud.com",
       color: "hover:text-red-400",
     },
   ];
