@@ -85,15 +85,18 @@ const Hero = () => {
               <p className="font-felipa text-sm md:text-base">
                 Modern, Intuitiv, Responsive
               </p>
-              <p className="subtitle text-xl md:text-3xl font-bold text-red-400 font-bungee">
+              <p className="subtitle text-lg md:text-3xl font-bold text-red-400 font-bungee">
                 Create professional websites <br className="hidden md:block" />
                 with Jon Larsen
               </p>
             </div>
-            <div className="space-y-3 md:space-y-5 text-sm md:text-lg lg:max-w-2xs md:max-w-xs w-full text-center md:text-left">
-              <p className="subtitle text-xs md:text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                dolor saepe sint rerum, odio accusamus culpa molestias beatae!
+            <div className="space-y-3 md:space-y-5 text-xs  md:text-lg lg:max-w-2xs md:max-w-xs w-full text-center md:text-left">
+              <p className="subtitle text-xs md:text-sm text-center">
+                {
+                  "<code> Your dream website is just a few lines of code away <code>"
+                }
+                <br />
+                {" Contact me now and let's get it online!"}
               </p>
               <a
                 className="flex items-center justify-center gap-1 uppercase leading-tight font-light text-xs md:text-sm"

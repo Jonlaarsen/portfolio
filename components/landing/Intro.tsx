@@ -187,7 +187,7 @@ const Intro = () => {
     });
   }, []);
   return (
-    <div className="size-full h-screen md:min-h-[300vh] grid grid-cols-1 lg:grid-cols-2 noisy grid-bg">
+    <div className="size-full h-[120vh] md:min-h-[300vh] grid grid-cols-1 lg:grid-cols-2 noisy grid-bg">
       <div className="left-container hidden md:block relative col-span-1 h-full w-full  ">
         <div className="left-title left-0 top-0 sticky w-full h-screen flex text-start flex-col items-start justify-center px-4 md:px-0">
           <div className="relative -mt-20 md:-mt-50 ml-4 md:ml-20 font-fugaz">
