@@ -71,9 +71,9 @@ const Hero = () => {
           JL-Studios
         </h1>
         <img
-          src="/Motiv 9.png"
+          src="/IMG_9729-Photoroom.png"
           alt="Jon Larsen - Professional Web Developer and Designer"
-          className="hidden md:block absolute  bottom-0 top-18 left-1/2 md:left-2/3 -translate-x-1/2 md:translate-x-0 z-[-1] w-auto  h-250 object-contain grayscale contrast-200 opacity-100"
+          className="hidden md:block absolute  bottom-0 top-18 left-1/2 md:left-2/3 -translate-x-1/2 md:translate-x-0 z-[-1] w-auto  h-210 object-contain grayscale contrast-200 opacity-100"
         />
         {/* <SiReact className="left-icon absolute left-5 top-64 h-35 w-35 " />
 
